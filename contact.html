@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Francisca Obiero | Contact</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <a href="index.html" class="logo">Francisca Obiero</a>
+      <button class="menu-toggle" aria-label="Toggle menu">&#9776;</button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html" class="active" aria-current="page">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="fade-in">
+    <section class="section contact-section">
+      <h1>Contact Me</h1>
+
+      <form id="contactForm" novalidate>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required placeholder="Your full name" />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required placeholder="your.email@example.com" />
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required placeholder="Write your message here"></textarea>
+
+        <button type="submit" class="btn">Send</button>
+      </form>
+
+      <div class="contact-info">
+        <h2>Reach Me</h2>
+        <p>Email: <a href="mailto:obierofrancisca@gmail.com">obierofrancisca@gmail.com</a></p>
+        <p>Phone: +254740081016</p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/francisca-obiero/" target="_blank" rel="noopener">Francisca Obiero</a></p>
+        <p>GitHub: <a href="https://github.com/francisca-obiero" target="_blank" rel="noopener">francisca-obiero</a></p>
+      </div>
+
+      <div class="cv-download">
+        <h2>Download My CV</h2>
+        <a href="Francisca_Obiero_CV.pdf" download class="btn">Download PDF</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Francisca Obiero</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
